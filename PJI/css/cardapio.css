@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    height: 100%;
+
+}
+.imagem-fundo {
+    background-size: cover;
+    background: url(../images/fundo\ preto-all.jpg);
+
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+.container-dias {
+    width: auto;
+    padding: 0px;
+    position: relative;
+    bottom: 1000px;
+}
+.extrato {
+    /**Extrato**/
+    font-family: Arial Black;
+    background-color: #ffffff;
+    /* Fundo vermelho */
+    color: #ff0000;
+    /* Texto branco */
+    padding: 10px 20px;
+    /* Espaçamento interno */
+    border-left: 10px solid #ffffff;
+    /* Borda esquerda vermelha */
+    border-right: 10px solid transparent;
+    /* Borda direita transparente */
+    border-top: 1px solid #ffffff;
+    border-top-right-radius: 20px;
+    /* Canto superior esquerdo arredondado */
+    border-bottom-right-radius: 20px;
+    /* Canto inferior esquerdo arredondado */
+    font-size: 20px;
+    height: 20px;
+    left: 0px;
+    top: 150px;
+    position: absolute;
+    cursor: pointer;
+    line-height: 20px;
+
+}
+
+.cardapio {
+    /*Cardapio*/
+    font-family: Arial Black;
+    background-color: #ff0000;
+    /* Fundo vermelho */
+    color: white;
+    /* Texto branco */
+    padding: 10px 20px;
+    /* Espaçamento interno */
+    border-left: 10px solid #ff0000;
+    /* Borda esquerda vermelha */
+    border-right: 10px solid transparent;
+    /* Borda direita transparente */
+    border-top: 1px solid #ff0000;
+    border-top-right-radius: 20px;
+    /* Canto superior esquerdo arredondado */
+    border-bottom-right-radius: 20px;
+    /* Canto inferior esquerdo arredondado */
+    font-size: 20px;
+    height: 20px;
+    left: 0px;
+    top: 400px;
+    position: absolute;
+    cursor: pointer;
+    line-height: 20px;
+
+}
+
+.avaliacao {
+    /*Avaliação*/
+    font-family: Arial Black;
+    background-color: #ffffff;
+    /* Fundo vermelho */
+    color: #ff0000;
+    /* Texto branco */
+    padding: 10px 20px;
+    /* Espaçamento interno */
+    border-left: 10px solid #ffffff;
+    /* Borda esquerda vermelha */
+    border-right: 10px solid transparent;
+    /* Borda direita transparente */
+    border-top: 1px solid #ffffff;
+    border-top-left-radius: 20px;
+    /* Canto superior esquerdo arredondado */
+    border-bottom-left-radius: 20px;
+    /* Canto inferior esquerdo arredondado */
+    font-size: 20px;
+    height: 20px;
+    right: 0px;
+    top: 150px;
+    position: absolute;
+    cursor: pointer;
+    line-height: 20px;
+
+}
+
+.cartao {
+    /*Cartão*/
+    font-family: Arial Black;
+    background-color: #ffffff;
+    /* Fundo vermelho */
+    color: #ff0000;
+    /* Texto branco */
+    padding: 10px 35px;
+    /* Espaçamento interno */
+    border-left: 10px solid #ffffff;
+    /* Borda esquerda vermelha */
+    border-right: 10px solid transparent;
+    /* Borda direita transparente */
+    border-top: 1px solid #ffffff;
+    border-top-left-radius: 20px;
+    /* Canto superior esquerdo arredondado */
+    border-bottom-left-radius: 20px;
+    /* Canto inferior esquerdo arredondado */
+    font-size: 20px;
+    height: 20px;
+    right: 0px;
+    top: 400px;
+    position: absolute;
+    cursor: pointer;
+    line-height: 20px;
+
+}
