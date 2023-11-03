@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    height: 100%;
+
+}
+
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
+    src: url();
+}
+
+.container-login {
+    width: auto;
+    padding: 0%;
+    position: relative;
+    bottom: 160%;
+}
+
+.imagem-fundo {
+    background-size: cover;
+    background: url(../images/fundo\ preto-all.jpg);
+
+    height: 106%;
+    position: relative;
+    display: flex;
+}
+
+.cartao-basica {
+    display: flex;
+    position: relative;
+    align-items: center;
+    bottom: 90%;
+    height: 48%;
+    right: -7%;
+}
+
+.cartao-basica :hover {
+    transition: 200ms;
+   /* height: 500%;*/
+}
+
+
+.cartao-basica img {
+    border-radius: 35px;
+}
+
+.titulo { /*basica dentro do retangulo vermelho*/
+    height: 130px;
+    right: -930px;
+    bottom: 850px;
+    position: relative;
+}
+
+
+.login-form-button {
+    font-family: 'Arial Black'; /*fonte arial*/
+    padding: 15px 130px; /* Padding interno para o botão */
+    font-size: 14px; /* Tamanho da fonte */
+    background-color: #ff0000;/* Cor de fundo preta */
+    color: #ffffff; /* Cor do texto vermelho */
+    border: 2px solid #FF0000;/* Borda vermelha */
+    border-radius: 10px; /* Arredondamento das bordas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    margin-top: 20%; /* espaço acima do botao*/
+    text-transform: uppercase; /*texto maiúsculo */
+    text-decoration: none;
+}
+
+
+
+.login-form {
+    position: relative;
+    bottom: -150px;
+    right: -920px;
+    height: fit-content;
+}
+
+.emailin {
+    font-family: 'Arial'; /*fonte arial*/
+    position: relative;
+    top: -200px;
+    height: 40px;
+    width: 100px;
+
+    
+}
+
+.pw {
+    font-family: 'Arial'; /*fonte arial*/
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: 2px solid #FF0000; /* Borda vermelha */
+    border-radius: 10px;/* Arredondamento das bordas */
+}
+.reset-link-container {
+    text-align: left; /* Centraliza o link */
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+.fpw,
+.cna { /*esqueceu a senha || criar nova conta*/
+    font-family: 'Arial Black'; /*fonte arial*/
+    padding: 10px 20px; /* Padding interno para o link */
+    font-size: 13px; /* Tamanho da fonte */
+    color: white; /* Cor do texto preto */
+    text-decoration: none; /* Remove a decoração do link */
+    cursor: pointer; /* Muda o cursor ao passar sobre o link */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    margin-top: -10px;
+    margin-right: 1100px;
+    display:block;
+}
+
+section {
+    position: relative;
+    right: 100px;
+    bottom: 500px;
+}
+
+.rectangle {
+    width: 500px;
+    position: relative;
+    height: 500px;
+    border: 2px solid red;
+    border-radius: 10px;
+    left: 813px;
+    bottom: 400px;
+}
+
+.username-input,
+.password-input {
+    font-family: 'Arial'; /*fonte arial*/
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 2px solid #FF0000; /* Borda vermelha */
+    border-radius: 10px; /* Arredondamento das bordas */
+    width: 20%; 
+}
