@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/fundo\ preto-all.jpg');
+    height: 100vh;
+}
+
+.section {
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-family: Arial black;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: arial;
+    color: #ff0000;
+}
+
+h3 {
+    margin-top: 0px;
+    font-family: Arial black;
+    text-align: center;
+    color: #ffffff;
+}
+
+.ingredientes {
+    margin-top: 7px;
+    margin-left: 30px;
+    font-family: arial;
+    color: #ffffff;
+    font-style:italic;
+}
+
+.prato-principal {
+    margin-top: 7px;
+    margin-left: 30px;
+    font-family: arial;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.sobremesa {
+    margin-top: 7px;
+    margin-left: 30px;
+    font-family: arial;
+    color: #ffffff;
+    font-style: italic;
+}
+
+
+
+.quadrado-branco {
+    width: 750px;
+    /* Largura do quadrado */
+    height: 500px;
+    /* Altura do quadrado */
+    background-color: white;
+    /* Cor de fundo branca */
+    border: 2px solid #000;
+    /* Borda preta */
+    border-radius: 50px;
+    margin-left:500px;
+}
+
+.quadrado-branco img {
+    width: 250px;
+    /* Largura da imagem */
+    height: 150px;
+    /* Altura automática para manter a proporção */
+    right: -250px;
+    margin-top: 100px;
+    position: relative;
+}
