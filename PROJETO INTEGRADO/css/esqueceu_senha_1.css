@@ -1,0 +1,116 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+    height: 100%;
+
+}
+
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
+    src: url();
+}
+
+.container-email {
+    width: auto;
+    padding: 0%;
+    position: relative;
+    bottom: 160%;
+}
+
+.imagem-fundo {
+    background-size: cover;
+    background: url(../images/fundo\ preto-all.jpg);
+
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.titulo { /*basica dentro do retangulo vermelho*/
+    height: 20.8%;
+    right: -38%;
+    bottom: 64%;
+    width: 20%;
+    position: relative;
+}
+
+.msg-email {
+    font-family: Arial Black;
+    font-size: 20px;
+    width: 110%;
+    height: 35%;
+    position: absolute;
+    top: -27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.email-form-button {
+    font-family: 'Arial Black'; /*fonte arial*/
+    padding: 15px 111.8px; /* Padding interno para o botão */
+    font-size: 14px; /* Tamanho da fonte */
+    background-color: #ff0000;/* Cor de fundo preta */
+    color: #ffffff; /* Cor do texto vermelho */
+    border: 2px solid #FF0000;/* Borda vermelha */
+    border-radius: 10px; /* Arredondamento das bordas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    text-transform: uppercase; /*texto maiúsculo */
+    text-decoration: none;
+}
+
+.email-form {
+    position: relative;
+    bottom: -110%;
+    right: -35.3%;
+    height: fit-content;
+    width: 26%;
+}
+
+.reset-link-container {
+    text-align: left; /* Centraliza o link */
+    padding-top: 10%;
+    padding-bottom: 3%;
+  }
+
+.cna { /*esqueceu a senha || criar nova conta*/
+    font-family: 'Arial Black'; /*fonte arial*/
+    padding: 5px; /* Padding interno para o link */
+    font-size: 13px; /* Tamanho da fonte */
+    color: white; /* Cor do texto preto */
+    text-decoration: none; /* Remove a decoração do link */
+    cursor: pointer; /* Muda o cursor ao passar sobre o link */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    margin-top: -1%;
+    margin-right: 61.6%;
+    display:block;
+}
+
+section {
+    position: relative;
+    right: 0%;
+    bottom: 100%;
+}
+
+.rectangle {
+    width: 500px;
+    position: relative;
+    height: 83%;
+    border: 2px solid red;
+    border-radius: 10px;
+    left: 30%;
+    bottom: -10%;
+}
+
+.email-input {
+    font-family: 'Arial'; /*fonte arial*/
+    padding: 5%;
+    margin-bottom: 12%;
+    font-size: 16px;
+    border: 2px solid #FF0000; /* Borda vermelha */
+    border-radius: 10px; /* Arredondamento das bordas */
+    width: 89%; 
+}
