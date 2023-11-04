@@ -41,7 +41,7 @@
     width: 110%;
     height: 35%;
     position: absolute;
-    top: -27%;
+    top: -20%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -51,7 +51,7 @@
 
 .email-form-button {
     font-family: 'Arial Black'; /*fonte arial*/
-    padding: 15px 111.8px; /* Padding interno para o botão */
+    padding: 15px 99.7px; /* Padding interno para o botão */
     font-size: 14px; /* Tamanho da fonte */
     background-color: #ff0000;/* Cor de fundo preta */
     color: #ffffff; /* Cor do texto vermelho */
@@ -112,5 +112,5 @@ section {
     font-size: 16px;
     border: 2px solid #FF0000; /* Borda vermelha */
     border-radius: 10px; /* Arredondamento das bordas */
-    width: 89%; 
+    width: 89%;
 }
