@@ -13,9 +13,9 @@
 
 .container-login {
     width: auto;
-    padding: 0px;
+    padding: 0%;
     position: relative;
-    bottom: 1000px;
+    bottom: 160%;
 }
 
 .imagem-fundo {
@@ -31,14 +31,14 @@
     display: flex;
     position: relative;
     align-items: center;
-    bottom: 560px;
-    height: 300px;
-    right: -80px;
+    bottom: 90%;
+    height: 48%;
+    right: -7%;
 }
 
 .cartao-basica :hover {
     transition: 200ms;
-    height: 315px;
+   /* height: 500%;*/
 }
 
 
@@ -63,8 +63,8 @@
     border: 2px solid #FF0000;/* Borda vermelha */
     border-radius: 10px; /* Arredondamento das bordas */
     cursor: pointer; /* Muda o cursor ao passar sobre o botão */
-    margin-top: 10px; /* espaço acima do botao*/
-    text-transform: uppercase; /* texto maiúsculo */
+    margin-top: 20%; /* espaço acima do botao*/
+    text-transform: uppercase; /*texto maiúsculo */
     text-decoration: none;
 }
 
