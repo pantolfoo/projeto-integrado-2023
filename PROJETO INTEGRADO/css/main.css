@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: content-box;
     height: 100%;
 
@@ -22,7 +22,7 @@
     background-size: cover;
     background: url(../images/fundo\ preto-all.jpg);
 
-    height: 106%;
+    height: 100%;
     position: relative;
     display: flex;
 }
@@ -34,13 +34,8 @@
     bottom: 89.6%;
     height: 48%;
     right: -7%;
+    width: 37.3%;
 }
-
-.cartao-basica :hover {
-    transition: 200ms;
-   /* height: 500%;*/
-}
-
 
 .cartao-basica img {
     border-radius: 35px;
@@ -48,8 +43,9 @@
 
 .titulo { /*basica dentro do retangulo vermelho*/
     height: 20.8%;
-    right: -68.5%;
-    bottom: 141%;
+    right: -63.5%;
+    bottom: 64%;
+    width: 20%;
     position: relative;
 }
 
@@ -68,57 +64,39 @@
     text-decoration: none;
 }
 
-
-
 .login-form {
     position: relative;
-    bottom: -24%;
-    right: -67.5%;
+    bottom: -98%;
+    right: -62.5%;
     height: fit-content;
+    width: 22.3%;
 }
 
-.emailin {
-    font-family: 'Arial'; /*fonte arial*/
-    position: relative;
-    top: -200px;
-    height: 40px;
-    width: 100px;
-
-    
-}
-
-.pw {
-    font-family: 'Arial'; /*fonte arial*/
-    padding: 15px;
-    margin-bottom: 10px;
-    font-size: 18px;
-    border: 2px solid #FF0000; /* Borda vermelha */
-    border-radius: 10px;/* Arredondamento das bordas */
-}
 .reset-link-container {
     text-align: left; /* Centraliza o link */
-    padding-top: 3%;
+    padding-top: 10%;
     padding-bottom: 3%;
   }
 
 .fpw,
 .cna { /*esqueceu a senha || criar nova conta*/
     font-family: 'Arial Black'; /*fonte arial*/
-    padding: 10px 20px; /* Padding interno para o link */
+    padding: 5px; /* Padding interno para o link */
     font-size: 13px; /* Tamanho da fonte */
     color: white; /* Cor do texto preto */
     text-decoration: none; /* Remove a decoração do link */
     cursor: pointer; /* Muda o cursor ao passar sobre o link */
     transition: background-color 0.3s; /* Transição suave para a cor de fundo */
     margin-top: -1%;
-    margin-right: 86%;
+    margin-right: 49%;
     display:block;
+
 }
 
 section {
     position: relative;
-    right: 7.5%;
-    bottom: 83%;
+    right: 0%;
+    bottom: 155%;
 }
 
 .rectangle {
@@ -127,21 +105,21 @@ section {
     height: 83%;
     border: 2px solid red;
     border-radius: 10px;
-    left: 60.5%;
-    bottom: 67%;
+    left: 55%;
+    bottom: -10%;
 }
 
 .username-input,
 .password-input {
     font-family: 'Arial'; /*fonte arial*/
-    padding: 1.2%;
-    margin-bottom: 1.2%;
+    padding: 5%;
+    margin-bottom: 6%;
     font-size: 16px;
     border: 2px solid #FF0000; /* Borda vermelha */
     border-radius: 10px; /* Arredondamento das bordas */
-    width: 20%; 
+    width: 89.6%; 
 }
 
 .password-input {
-    margin-bottom: 2.7%;
+    margin-bottom: 12%;
 }
