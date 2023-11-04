@@ -166,21 +166,38 @@ body {
     border-radius: 30px;
     /* Arredondamento das bordas */
     background-color: #ff0000;
-    /* Cor de fundo preta */
+    /* Cor de fundo vermelho */
     color: #ffffff;
-    /* Cor do texto vermelho */
+    /* Cor do texto branco */
     font-size: 20px;
     height: 50px;
     /* Altura desejada */
     width: 200px;
     /* Largura desejada */
     position: absolute;
-    bottom: 100px;
+    bottom: 20%;
     /* Ajuste a posição inferior conforme necessário */
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     cursor: pointer;
-    line-height: 50px;
+    line-height: 240%;
+    text-decoration: none;
+}
+
+.botao-sair {
+    font-family: Arial Black;
+    color: #000000;
+    /* Cor do texto preto */
+    font-size: 20px;
+    height: 20px;
+    /* Altura desejada */
+    width: 50px;
+    /* Largura desejada */
+    position: absolute;
+    bottom: 14%;
+    text-align: center;
+    cursor: pointer;
+    line-height: 100%;
     text-decoration: none;
 }
