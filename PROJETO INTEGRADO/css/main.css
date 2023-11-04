@@ -31,7 +31,7 @@
     display: flex;
     position: relative;
     align-items: center;
-    bottom: 90%;
+    bottom: 89.6%;
     height: 48%;
     right: -7%;
 }
@@ -47,9 +47,9 @@
 }
 
 .titulo { /*basica dentro do retangulo vermelho*/
-    height: 130px;
-    right: -930px;
-    bottom: 850px;
+    height: 20.8%;
+    right: -68.5%;
+    bottom: 141%;
     position: relative;
 }
 
@@ -72,8 +72,8 @@
 
 .login-form {
     position: relative;
-    bottom: -150px;
-    right: -920px;
+    bottom: -24%;
+    right: -67.5%;
     height: fit-content;
 }
 
@@ -97,8 +97,8 @@
 }
 .reset-link-container {
     text-align: left; /* Centraliza o link */
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
 
 .fpw,
@@ -110,34 +110,38 @@
     text-decoration: none; /* Remove a decoração do link */
     cursor: pointer; /* Muda o cursor ao passar sobre o link */
     transition: background-color 0.3s; /* Transição suave para a cor de fundo */
-    margin-top: -10px;
-    margin-right: 1100px;
+    margin-top: -1%;
+    margin-right: 86%;
     display:block;
 }
 
 section {
     position: relative;
-    right: 100px;
-    bottom: 500px;
+    right: 7.5%;
+    bottom: 83%;
 }
 
 .rectangle {
     width: 500px;
     position: relative;
-    height: 500px;
+    height: 83%;
     border: 2px solid red;
     border-radius: 10px;
-    left: 813px;
-    bottom: 400px;
+    left: 60.5%;
+    bottom: 67%;
 }
 
 .username-input,
 .password-input {
     font-family: 'Arial'; /*fonte arial*/
-    padding: 15px;
-    margin-bottom: 10px;
+    padding: 1.2%;
+    margin-bottom: 1.2%;
     font-size: 16px;
     border: 2px solid #FF0000; /* Borda vermelha */
     border-radius: 10px; /* Arredondamento das bordas */
     width: 20%; 
+}
+
+.password-input {
+    margin-bottom: 2.7%;
 }
