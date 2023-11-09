@@ -178,5 +178,23 @@ body {
 }
 .estrelas{
     position: absolute;
+    
     box-sizing  : 40px;
 }
+
+.deixarAvaliacao{
+    color: #555; /* Cor do texto do placeholder */
+    font-size: 16px; /* Tamanho do texto do placeholder */
+    font-weight: bold; /* Negrito */
+    letter-spacing: 1px;
+    width: 250px;
+    word-wrap: break-word; /* Quebra a palavra para a próxima linha se não houver espaço */
+}
+
+/*.imagem_avaliacoes{
+    margin-top: 20px;
+}
+<div class="imagem_avaliacoes">
+<img src="" alt="titulo">
+
+</div>*/

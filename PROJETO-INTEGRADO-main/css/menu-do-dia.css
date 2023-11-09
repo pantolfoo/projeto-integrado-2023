@@ -61,7 +61,7 @@ img{
 }
 
 .text-container {
-    display: flex;
+    display: block;
     flex-direction: column;
     text-align: left;
     margin-right: 200px;
@@ -70,3 +70,16 @@ img{
 .text-container h3 {
     margin: 0;
 }
+#voltar {
+    font-family: Arial black;
+    color: #ff0000;
+    font-size: 21px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 999; /* Garante que o botão fique acima do restante do conteúdo */
+    background-color: white; /* Cor de fundo do botão */
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    border-radius: 10px; /* Remove a borda do botão */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+  }
