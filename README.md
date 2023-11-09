@@ -1,4 +1,4 @@
-# Repositório utilizado para a disciplina de Projeto interado
+# Repositório utilizado para Projeto interado
 
   
 
