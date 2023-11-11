@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -37,7 +39,7 @@ body {
 
 .extrato {
     /**Extrato**/
-    font-family: Arial Black;
+    font-family: 'Quicksand', sans-serif;
     background-color: #ff0000;
     /* Fundo vermelho */
     color: white;
@@ -65,7 +67,8 @@ body {
 
 .cardapio {
     /*Cardapio*/
-    font-family: Arial Black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
     background-color: #ffffff;
     /* Fundo vermelho */
     color: #ff0000;
@@ -93,7 +96,10 @@ body {
 
 .cartao {
     /*Cartão*/
-    font-family: Arial Black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+
     background-color: #ffffff;
     /* Fundo vermelho */
     color: #ff0000;
@@ -109,7 +115,6 @@ body {
     /* Canto superior esquerdo arredondado */
     border-bottom-left-radius: 20px;
     /* Canto inferior esquerdo arredondado */
-    font-size: 20px;
     height: 20px;
     right: 0px;
     top: 400px;
@@ -121,8 +126,11 @@ body {
 
 .avaliacao {
     /*Avaliação*/
-    font-family: Arial Black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
     background-color: #ffffff;
+    font-size: 20px;
+
     /* Fundo vermelho */
     color: #ff0000;
     /* Texto branco */
@@ -137,7 +145,6 @@ body {
     /* Canto superior esquerdo arredondado */
     border-bottom-left-radius: 20px;
     /* Canto inferior esquerdo arredondado */
-    font-size: 20px;
     height: 20px;
     right: 0px;
     top: 150px;
@@ -158,10 +165,10 @@ body {
 }
 
 .menu-text {
-    font-family: Arial Black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 400%;
     padding: 5px 10px;
     display: inline-block;
-    font-size: 40px;
     color: white;
 }
 

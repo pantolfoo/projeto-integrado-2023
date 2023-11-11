@@ -1,14 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: content-box;
     height: 100%;
+    width: 100%;
 
-}
-
-@font-face {
-    font-family: Arial, Helvetica, sans-serif;
-    src: url();
 }
 
 .container-login {
@@ -31,20 +29,20 @@
     display: flex;
     position: relative;
     align-items: center;
-    bottom: 89.6%;
-    height: 48%;
+    bottom: 90%;
+    height: 45%;
     right: -7%;
-    width: 37.3%;
+    width: 35vw;
 }
 
 .cartao-basica img {
-    margin-top: 170px;
-    border-radius: 35px;
+    margin-top: 45%;
+    border-radius: 3%;
 }
 
 .titulo { /*basica dentro do retangulo vermelho*/
-    height: 20.8%;
-    right: -63.5%;
+    height: 21%;
+    left: 64%;
     bottom: 64%;
     width: 20%;
     position: relative;
@@ -52,12 +50,14 @@
 
 
 .login-form-button {
-    font-family: 'Arial Black'; /*fonte arial*/
-    padding: 15px 126.5px; /* Padding interno para o botão */
-    font-size: 14px; /* Tamanho da fonte */
+    margin-left: 20%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700; /*extra bold*/
+    padding: 5% 20%; /* Padding interno para o botão */
+    font-size: 100%; /* Tamanho da fonte */
     background-color: #ff0000;/* Cor de fundo preta */
     color: #ffffff; /* Cor do texto vermelho */
-    border: 2px solid #FF0000;/* Borda vermelha */
+    border: 20% solid #FF0000;/* Borda vermelha */
     border-radius: 10px; /* Arredondamento das bordas */
     cursor: pointer; /* Muda o cursor ao passar sobre o botão */
     margin-top: 20%; /* espaço acima do botao*/
@@ -81,7 +81,8 @@
 
 .fpw,
 .cna { /*esqueceu a senha || criar nova conta*/
-    font-family: 'Arial Black'; /*fonte arial*/
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
     padding: 5px; /* Padding interno para o link */
     font-size: 13px; /* Tamanho da fonte */
     color: white; /* Cor do texto preto */
@@ -113,7 +114,7 @@ section {
 
 .username-input,
 .password-input {
-    font-family: 'Arial'; /*fonte arial*/
+    font-family: 'Quicksand', sans-serif;
     padding: 5%;
     margin-bottom: 6%;
     font-size: 16px;

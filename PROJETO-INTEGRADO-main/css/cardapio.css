@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -37,7 +39,8 @@ body {
 
 .extrato {
     /**Extrato**/
-    font-family: Arial Black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
     background-color: #ffffff;
     /* Fundo vermelho */
     color: #ff0000;
@@ -65,7 +68,7 @@ body {
 
 .cardapio {
     /*Cardapio*/
-    font-family: Arial Black;
+    font-family: 'Quicksand', sans-serif;
     background-color: #ff0000;
     /* Fundo vermelho */
     color: white;
@@ -93,7 +96,8 @@ body {
 
 .cartao {
     /*Cartão*/
-    font-family: Arial Black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;    
     background-color: #ffffff;
     /* Fundo vermelho */
     color: #ff0000;
@@ -121,7 +125,8 @@ body {
 
 .avaliacao {
     /*Avaliação*/
-    font-family: Arial Black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;    
     background-color: #ffffff;
     /* Fundo vermelho */
     color: #ff0000;
@@ -158,26 +163,28 @@ body {
 }
 
 .menu-text {
-    font-family: Arial Black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 400%;
     padding: 5px 10px;
     display: inline-block;
-    font-size: 40px;
     color: white;
 }
 .button-list {
     list-style: none;
+    margin-top: 50px;
     padding: 0;
-    width: 300px;
-    /* Aumente a largura da lista */
+    width: 300px;  /* Aumente a largura da lista */
     margin: 0 15px;
 }
 
 .button-list li {
     margin: 5px 0;
+    margin-top: 20px;
 }
 
 .button {
-    font-family: Arial ;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
     display: block;
     width: 100%;
     padding: 25px;

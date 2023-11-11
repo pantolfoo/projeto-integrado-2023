@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -37,7 +39,8 @@ body {
 
 .extrato {
     /**Extrato**/
-    font-family: Arial Black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
     background-color: #ffffff;
     /* Fundo vermelho */
     color: #ff0000;
@@ -65,7 +68,8 @@ body {
 
 .cardapio {
     /*Cardapio*/
-    font-family: Arial Black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
     background-color: #ffffff;
     /* Fundo vermelho */
     color: #ff0000;
@@ -93,7 +97,8 @@ body {
 
 .cartao {
     /*Cartão*/
-    font-family: Arial Black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
     background-color: #ffffff;
     /* Fundo vermelho */
     color: #ff0000;
@@ -121,7 +126,8 @@ body {
 
 .avaliacao {
     /*Avaliação*/
-    font-family: Arial Black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
     background-color: #ff0000;
     /* Fundo vermelho */
     color: white;
@@ -158,10 +164,10 @@ body {
 }
 
 .menu-text {
-    font-family: Arial Black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 400%;
     padding: 5px 10px;
     display: inline-block;
-    font-size: 40px;
     color: white;
 }
 
@@ -176,19 +182,24 @@ body {
     /* Borda preta */
     border-radius: 50px;
 }
-.estrelas{
+
+.estrelas {
     position: absolute;
-    
-    box-sizing  : 40px;
+
+    box-sizing: 40px;
 }
 
-.deixarAvaliacao{
-    color: #555; /* Cor do texto do placeholder */
-    font-size: 16px; /* Tamanho do texto do placeholder */
-    font-weight: bold; /* Negrito */
+.deixarAvaliacao {
+    color: #555;
+    /* Cor do texto do placeholder */
+    font-size: 16px;
+    /* Tamanho do texto do placeholder */
+    font-weight: bold;
+    /* Negrito */
     letter-spacing: 1px;
     width: 250px;
-    word-wrap: break-word; /* Quebra a palavra para a próxima linha se não houver espaço */
+    word-wrap: break-word;
+    /* Quebra a palavra para a próxima linha se não houver espaço */
 }
 
 /*.imagem_avaliacoes{
