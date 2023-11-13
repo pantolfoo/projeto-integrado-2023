@@ -4,13 +4,14 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('../images/fundo\ preto-all.jpg');
-    height: 100vh;
+    height: 97vh;
 }
 
 .container {
     display: flex;
     flex-direction: row-reverse; /* Inverte a direção dos elementos */
     align-items: center; /* alinha verticalmente */
+    height: 80vh;
 }
 h1 {
     font-family: 'Quicksand', sans-serif;
@@ -44,6 +45,7 @@ h3 {
     margin-left: 10px;
     margin-top: 5px;
     font-size: 18px;
+
 }
 .sobremesa{
     margin-top: 7px;
@@ -88,4 +90,5 @@ img{
     padding: 10px 15px; /* Espaçamento interno do botão */
     border-radius: 10px; /* Remove a borda do botão */
     cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+    text-decoration: none;  
   }

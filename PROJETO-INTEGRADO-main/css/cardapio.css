@@ -174,7 +174,7 @@ body {
     margin-top: 50px;
     padding: 0;
     width: 300px;  /* Aumente a largura da lista */
-    margin: 0 15px;
+    margin: 5 15px;
 }
 
 .button-list li {
