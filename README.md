@@ -1,6 +1,6 @@
 ## Sobre:
 #### Repositório que está comportando o projeto da disciplina de Projeto integrado de 2023
-#### Esse foi o nosso primerio projeto, que teve objetivo de melhorar o acesso ao Básica, restaurante que utlilizamos no IFSP.
+#### Esse foi o nosso primerio projeto, que teve objetivo de melhorar o acesso ao Básica, restaurante universitário que utlilizamos no IFSP.
 
 ## Link do Projeto:
 #### https://pantolfoo.github.io/PROJETO-INTEGRADO/
