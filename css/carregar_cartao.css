@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/fundo\ preto-all.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+}
+
+.botao-cred,
+.botao-deb{
+    position: absolute;
+    font-family: 'Arial Black'; /*fonte arial*/
+    padding: 5px 15px; /* Padding interno para o botão */
+    font-size: 13px; /* Tamanho da fonte */
+    background-color: #ffffff;/* Cor de fundo preta */
+    color: #ff0000; /* Cor do texto vermelho */
+    border: 2px solid #ffffff;/* Borda vermelha */
+    border-radius: 10px; /* Arredondamento das bordas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    margin-top: 13%; /* espaço acima do botao*/
+    text-transform: uppercase; /*texto maiúsculo */
+    text-decoration: none;
+}
+
+.botao-cred{
+    margin-left: -10%;
+}
+
+.botao-deb{
+    margin-left: 7%;
+}
+
+.cred{
+    position: relative;
+    right: -5%;
+    height: 10%;
+    width: 23%;
+    display: none;
+}
+
+.deb{
+    position: relative;
+    right: -5%;
+    height: 10%;
+    width: 23%;
+    display: none;
+}
+
+.valor{
+    margin-top: -20%;
+    margin-right: -10%;
+}
+
+.valor-input{
+font-family: 'Quicksand', sans-serif;
+padding: 1%;
+font-size: 16px;
+border: 2px solid #FF0000; /* Borda vermelha */
+border-radius: 10px; /* Arredondamento das bordas */
+top: 23%;
+right: 39%;
+width: 20%;
+position: absolute;
+}
+
+.text_valor{
+font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.botao-carregar_c,
+.botao-carregar_d{
+    font-family: 'Arial Black'; /*fonte arial*/
+    position: absolute;
+    padding: 15px 101px; /* Padding interno para o botão */
+    font-size: 14px; /* Tamanho da fonte */
+    background-color: #ff0000;/* Cor de fundo preta */
+    color: #ffffff; /* Cor do texto vermelho */
+    border: 2px solid #FF0000;/* Borda vermelha */
+    border-radius: 10px; /* Arredondamento das bordas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    text-transform: uppercase; /*texto maiúsculo */
+    text-decoration: none;
+    margin-top: -40%;
+}
+
+.rectangle_c,
+.rectangle_d{
+    top: 150px;
+    width: 500px;
+    position: relative;
+    height: 300px;
+    border: 2px solid red;
+    border-radius: 10px;
+    left: -35%;
+    bottom: -10%;
+}
+
+.Nome-input_c,
+.cvv-input_c,
+.cartao-input_c,
+.Nome-input_d,
+.cvv-input_d,
+.cartao-input_d{
+    position: relative;
+    font-family: 'Arial'; /*fonte arial*/
+    padding: 2%;
+    margin-bottom: 6%;
+    font-size: 16px;
+    border: 2px solid #FF0000; /* Borda vermelha */
+    border-radius: 10px; /* Arredondamento das bordas */
+    width: 88%;
+    top: -120px;
+}
+
+.cvv-input_c,
+.cvv-input_d{
+    margin-bottom: 12%;
+}
+
+.voltar {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    color: #ff0000;
+    font-size: 21px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 999; /* Garante que o botão fique acima do restante do conteúdo */
+    background-color: white; /* Cor de fundo do botão */
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    border-radius: 10px; /* Remove a borda do botão */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+    text-decoration: none;  
+  }

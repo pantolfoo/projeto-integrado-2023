@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/fundo\ preto-all.jpg');
+    height: 97vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse; /* Inverte a direção dos elementos */
+    align-items: center; /* alinha verticalmente */
+    height: 80vh;
+}
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    margin-top: 0px;
+    text-align: center;
+    color: #ffffff;
+}
+h3 {
+    margin-top: 5px;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    font-size: 23px;
+}
+
+.div{ /*ingredientes*/
+    margin-top: 7px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    font-style:italic;
+    color:#ff0000;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+
+}
+.sobremesa{
+    margin-top: 7px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    font-style:italic;
+    color:#ff0000;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+img{
+    height: 500px;
+    margin-right: 50px; /*margem DA direita*/
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-top: 0px;
+}
+
+.text-container {
+    display: block;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 200px;
+}
+
+.text-container h3 {
+    margin: 0;
+}
+.voltar {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    color: #ff0000;
+    font-size: 21px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 999; /* Garante que o botão fique acima do restante do conteúdo */
+    background-color: white; /* Cor de fundo do botão */
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    border-radius: 10px; /* Remove a borda do botão */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+    text-decoration: none;  
+  }
