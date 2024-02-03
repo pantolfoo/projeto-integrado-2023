@@ -1,10 +1,20 @@
-# Repositório referente à disciplina de projeto integrado - 2023
-Linguagens utilizadas: CSS e HTML :computer:
- <br />
- 
-Desenvolvedores do projeto: Isabella Pantolfo, Lucas Almeida e Rodrigo Bettio
+## Sobre:
+#### Repositório que está comportando o projeto da disciplina de Projeto integrado de 2023
+#### Esse foi o nosso primerio projeto, que teve objetivo de melhorar o acesso ao Básica, restaurante que utlilizamos no IFSP.
 
-# Sobre o projeto:
-Temos como objetivo melhorar o restaurante universitário da escola, o Básica.
- <br />
-No site, tem a opção de carregar seu cartão, ver o cardápio, avaliações e saldo que possuí. 
+## Link do Projeto:
+#### 
+
+## Linguagens usadas:
+![HTML5](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
+
+## Participantes:
+#### - Isabella Pantolfo Melo
+#### - Lucas Almeida Milhomem
+#### - Pedro Mafra dos Santos
+#### - Rafael Oliveira Muñoz
+#### - Rodrigo Bettio Penha Junior
+
+
+
